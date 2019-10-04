@@ -75,7 +75,7 @@ class HashTable:
         '''
         index = self._hash_mod(key)
 
-        return self.storage[index]
+        return self.storage[index][1]
 
     def resize(self):
         '''
